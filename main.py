@@ -60,6 +60,7 @@ complaint= st.text_input('Escreva sua queixa', placeholder= 'dor de cabeça').lo
 
 for oil in oils:
     if complaint in oil:
+        print(oil)
         st.image(images[oil])
 
         st.success("Este é o óleo ideal para você!")
