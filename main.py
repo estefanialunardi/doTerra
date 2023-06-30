@@ -54,7 +54,7 @@ lavender = ['dores de cabeça', 'dor de cabeça', 'enxaquecas', 'enxaqueca', 'te
 lemon =  ['gripe', 'gripes', 'resfriado', 'resfriados', 'nariz entupido', 'congestão', 'constipação', 'dor de garganta', 'dores de garganta', 'inflamação de garganta', 'mau humor', 'mau-humor', 'tristeza']
 peppermint = ['nausea', 'nauseas', 'náusea', 'náuseas', 'dor de barriga', 'dores de barriga', 'dores abdominais', 'dor abdominal', 'diarreia', 'colon irritavel', 'cólon irritável', 'intestino irritavel', 'intestino irritável', 'dor muscular', 'dores musculares', 'dor de cabeça', 'dores de cabeça', 'dor de cabeca', 'dores de cabeca', 'repelente', 'falta de concentração', 'falta de concentracao', 'nariz entupido', 'congestão nasal']
 oils = [lavender, lemon, peppermint]
-images = {lavender: 'lavanda-1.jpg', lemon: 'lemon.jpg', peppermint: 'peppermint.jpg'}
+images = {'lavender': 'lavanda-1.jpg', 'lemon': 'lemon.jpg', 'peppermint': 'peppermint.jpg'}
 
 complaint= st.text_input('Escreva sua queixa', placeholder= 'dor de cabeça').lower()
 
