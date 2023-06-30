@@ -51,8 +51,8 @@ st.write(""" 👇 Escreva a sua queixa para descobrir o óleo com os benefícios
 
 
 lavender ={ 'nome': "Lavender", 'beneficios': ['dores de cabeça', 'dor de cabeça', 'enxaquecas', 'enxaqueca', 'tensão muscular', 'queimadura', 'queimaduras', 'acne', 'espinhas', 'espinha', 'tensões musculares', 'irritação na pele', 'irritações na pele', 'irritação de pele', 'irritações de pele', 'insônia', 'insonia', 'estresse', 'stresse', 'depressao', 'depressão'], 'image': 'lavanda-1.jpg'} 
-lemon =  ['gripe', 'gripes', 'resfriado', 'resfriados', 'nariz entupido', 'congestão', 'constipação', 'dor de garganta', 'dores de garganta', 'inflamação de garganta', 'mau humor', 'mau-humor', 'tristeza']
-peppermint = ['nausea', 'nauseas', 'náusea', 'náuseas', 'dor de barriga', 'dores de barriga', 'dores abdominais', 'dor abdominal', 'diarreia', 'colon irritavel', 'cólon irritável', 'intestino irritavel', 'intestino irritável', 'dor muscular', 'dores musculares', 'dor de cabeça', 'dores de cabeça', 'dor de cabeca', 'dores de cabeca', 'repelente', 'falta de concentração', 'falta de concentracao', 'nariz entupido', 'congestão nasal']
+lemon =  {'nome': 'Lemon', 'beneficios': ['gripe', 'gripes', 'resfriado', 'resfriados', 'nariz entupido', 'congestão', 'constipação', 'dor de garganta', 'dores de garganta', 'inflamação de garganta', 'mau humor', 'mau-humor', 'tristeza'], 'image': 'lemon.jpg'}
+peppermint ={ 'nome': 'Pepppermint', 'beneficios': ['nausea', 'nauseas', 'náusea', 'náuseas', 'dor de barriga', 'dores de barriga', 'dores abdominais', 'dor abdominal', 'diarreia', 'colon irritavel', 'cólon irritável', 'intestino irritavel', 'intestino irritável', 'dor muscular', 'dores musculares', 'dor de cabeça', 'dores de cabeça', 'dor de cabeca', 'dores de cabeca', 'repelente', 'falta de concentração', 'falta de concentracao', 'nariz entupido', 'congestão nasal'],'image': 'peppermint.jpg'}
 oils = [lavender, lemon, peppermint]
 
 complaint= st.text_input('Escreva sua queixa', placeholder= 'dor de cabeça').lower()
