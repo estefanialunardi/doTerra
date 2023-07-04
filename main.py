@@ -74,7 +74,7 @@ for oil in oils:
     if complaint in oil['beneficios']:
         st.text(oil['nome'])
         st.image(oil['image'])
-        st.text('Saiba como adquirir este e outros óleos')
+        st.write('[Leve para casa este e outros óleos](http://my.doterra.com/anarossiaromaterapia)')
         st.success("Escolha o óleo ideal para você!")
 
         st.balloons()
